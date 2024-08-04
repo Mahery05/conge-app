@@ -1,4 +1,4 @@
-# Application de Gestion des Congés
+# 04 – Interfaces frontend
 
 Cette application de gestion des congés permet aux utilisateurs de voir leurs congés, de poser des demandes de congés et de consulter un calendrier des congés.
 Cette application a été faite uniquement en React et Tailwind, quelques features ne sont pas focntionnelles.
