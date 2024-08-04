@@ -1,71 +1,66 @@
-# Getting Started with Create React App
+# Application de Gestion des Congés
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Cette application de gestion des congés permet aux utilisateurs de voir leurs congés, de poser des demandes de congés et de consulter un calendrier des congés.
+Cette application a été faite uniquement en React et Tailwind, quelques features ne sont pas focntionnelles.
 
-## Available Scripts
+## Fonctionnalités
 
-In the project directory, you can run:
+- Liste des congés avec leur état
+- Compteur de congés (jours posés et jours restants)
+- Formulaire de demande de congé
+- Calendrier interactif des congés
 
-### `npm start`
+## Prérequis
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js v20.9.0 ou supérieur
+- npm (inclus avec Node.js)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clonez le dépôt sur votre machine locale :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/votre-utilisateur/conge-app.git
+```
 
-### `npm run build`
+2. Accédez au répertoire du projet
+```bash
+cd conge-app
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Installez les dépendances
+```bash
+npm install
+```
+4. Lancer l'application
+```bash
+npm start
+```
+Cela lancera l'application et l'ouvrira dans votre navigateur par défaut à l'adresse http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Scripts Disponibles
+- npm start : Démarre l'application en mode développement.
+- npm run build : Construit l'application pour la production dans le dossier build.
+- npm test : Lance les tests.
+- npm run eject : Éjecte la configuration de Create React App. Attention : cette action est irréversible.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Utilisation des Composants
+## Header
+Le composant `Header` affiche le logo du site, le nom du site, l'avatar de l'utilisateur et un bouton de déconnexion.
 
-### `npm run eject`
+## Compteur
+Le composant `Count` affiche le nombre de jours de congé posés et le nombre de jours restants.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Liste des Congés
+Le composant `List` affiche la liste des congés avec leur état (approuvé, en attente, refusé).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Formulaire de Demande de Congé
+Le composant `Form` permet aux utilisateurs de poser une demande de congé en sélectionnant une date de début et une date de fin.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Calendrier
+Le composant `Calendar` affiche un calendrier interactif où les jours de congé posés sont mis en évidence.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Auteur
+- RAZAKANDRAINA Mahery
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # conge-app
