@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const FormulaireConge = () => {
+const Form = () => {
   const [date, setDate] = useState('');
   const [type, setType] = useState('');
 
@@ -38,4 +38,4 @@ const FormulaireConge = () => {
   );
 };
 
-export default FormulaireConge;
+export default Form;

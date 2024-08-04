@@ -1,9 +1,10 @@
 import React from 'react';
 
-const ListeConges = () => {
+const List = () => {
   const conges = [
-    { date: '2024-01-01', status: 'Approuvé' },
-    { date: '2024-02-14', status: 'En attente' },
+    { date: '04/08/2024', status: 'Approuvé' },
+    { date: '12/08/2024', status: 'Approuvé' },
+    { date: '05/05/2025', status: 'En attente' },
   ];
 
   return (
@@ -21,4 +22,4 @@ const ListeConges = () => {
   );
 };
 
-export default ListeConges;
+export default List;

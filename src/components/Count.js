@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Compteur = () => {
+const Count = () => {
   return (
     <div className="bg-white p-4 rounded shadow-md mb-4">
       <h2 className="text-xl font-bold mb-2">Récapitulatif des Congés</h2>
@@ -10,4 +10,4 @@ const Compteur = () => {
   );
 };
 
-export default Compteur;
+export default Count;
