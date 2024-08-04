@@ -63,4 +63,8 @@ Le composant `Calendar` affiche un calendrier interactif où les jours de congé
 ## Auteur
 - RAZAKANDRAINA Mahery
 
+## Lien des vidéos
+- 1e partie : https://www.loom.com/share/3018ef81eaf84feaa4b6484de98fbcfe?sid=266904d5-fbdd-4121-8f6a-2489702ca36f 
+- 2e partie : https://www.loom.com/share/d177e70395bc4fa3a65fc3bb2531c52a?sid=d052fe52-42a3-470f-9341-2019cf005afc
+
 # conge-app
